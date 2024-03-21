@@ -16,7 +16,7 @@ int lcs(string s, string t)
 
 			//  	not matching case
 				else curr[i2] = max(prev[i2],curr[i2-1]);
-		}
+		}e
 		prev=curr;
 	}
 		
