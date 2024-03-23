@@ -9,5 +9,6 @@ int func(int a, int b){
             b/=2;
         }
     }
+    return ans;
 
 }
