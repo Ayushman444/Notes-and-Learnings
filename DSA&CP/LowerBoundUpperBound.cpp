@@ -1,3 +1,11 @@
+// Iterator lower_bound (Iterator first, Iterator last, const val)  
+// lower_bound returns an iterator pointing to the first element in the range [first,last) which has a 
+// value not less than ‘val’  and if the value is not present in the vector then it returns the end iterator.
+
+// Iterator upper_bound (Iterator first, Iterator last, const val)
+// upper_bound returns an iterator pointing to the first element in the range [first,last) which has a 
+// value greater than ‘val’  and if the value is not present in the vector then it returns the end iterator.
+
 int lowerBound(vector<int> arr, int n, int x) {
 	// Write your code herei
 	int l = 0;
